@@ -34,10 +34,11 @@ Incluye los siguientes archivos principales:
 El bot sigue un flujo de conversación que permite a los usuarios recibir respuestas detalladas y útiles en base a sus consultas. Ejemplos de interacción:
 
 Consulta del usuario: "¿Cómo puedo mejorar la dieta de mi gato?"
+
 Respuesta de Miaumis: Puede sugerir consejos sobre nutrición específica para gatos y advertencias sobre alimentos no recomendados.
+
 Preguntas Frecuentes:
 Los usuarios pueden hacer preguntas como:
-
 - "¿Qué hacer si mi gato muestra signos de estrés?"
 - "¿Cuántas veces al día debo alimentar a mi gato?"
 - "¿Cómo puedo hacer que mi gato use el rascador?"
