@@ -31,7 +31,7 @@ Incluye los siguientes archivos principales:
 
 ## Interacción del Usuario con el Bot y Flujo de conversación:
 
-El bot Ayudante Gatuno sigue un flujo de conversación que permite a los usuarios recibir respuestas detalladas y útiles en base a sus consultas. Ejemplos de interacción:
+El bot sigue un flujo de conversación que permite a los usuarios recibir respuestas detalladas y útiles en base a sus consultas. Ejemplos de interacción:
 
 Consulta del usuario: "¿Cómo puedo mejorar la dieta de mi gato?"
 Respuesta de Miaumis: Puede sugerir consejos sobre nutrición específica para gatos y advertencias sobre alimentos no recomendados.
@@ -53,3 +53,4 @@ Abrir terminal y ejecutar el siguiente comando:
 5) Ejecutar la notebook embeddings.ipynb para crear la base de datos Chroma con información relevante sobre el cuidado de gatos.
 Notas:Si encuentras problemas de autorización en Windows, ejecuta el siguiente comando en PowerShell como administrador: 'Set-ExecutionPolicy RemoteSigned -Scope LocalMachine' y luego, confirma con "s" y repite el paso 2.
 
+También, información más detallada sobre la instalación y el funcionamiento del software se encuentra disponible dentro del directorio miaumis, en el archivo setup.txt.
