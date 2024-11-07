@@ -38,9 +38,9 @@ Respuesta de Miaumis: Puede sugerir consejos sobre nutrición específica para g
 Preguntas Frecuentes:
 Los usuarios pueden hacer preguntas como:
 
-"¿Qué hacer si mi gato muestra signos de estrés?"
-"¿Cuántas veces al día debo alimentar a mi gato?"
-"¿Cómo puedo hacer que mi gato use el rascador?"
+- "¿Qué hacer si mi gato muestra signos de estrés?"
+- "¿Cuántas veces al día debo alimentar a mi gato?"
+- "¿Cómo puedo hacer que mi gato use el rascador?"
 
 ---
 
