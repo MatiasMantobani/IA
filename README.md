@@ -3,23 +3,23 @@
 
 ---
 
-## Descripción general:
+## Descripción general
 Miaumis es un chatbot diseñado para ofrecer consejos sobre el cuidado general de gatos, responder preguntas frecuentes sobre salud, alimentación y comportamiento felino, y guiar a los tutores en el manejo adecuado de sus mascotas. Además, sugiere cuándo es necesario consultar a un veterinario para casos más graves.
 
-## Objetivo:
+## Objetivo
 Facilitar el acceso a información confiable sobre el cuidado de gatos para mejorar su bienestar y calidad de vida.
 
-## Destinatarios:
+## Destinatarios
 Tutores de gatos domesticos: dueños de mascotas, veterinarios, y cualquier persona interesada en el bienestar de los gatos.
 
 ---
 
 ## Arquitectura
 
-### Interfaz de usuario (UI):
+### Interfaz de usuario (UI)
 Implementada con Streamlit, la interfaz permite una interacción amigable mediante una ventana de chat. Los usuarios pueden enviar preguntas, recibir respuestas, y tienen acceso a opciones como Borrar historial para reiniciar la conversación y organizar consultas.
 
-### Backend:
+### Backend
 Incluye los siguientes archivos principales:
 
 - app.py: Responsable de la interfaz de usuario, configuración de las columnas, botones, e integración con el modelo de chat.
@@ -29,7 +29,7 @@ Incluye los siguientes archivos principales:
 
 ---
 
-## Interacción del Usuario con el Bot y Flujo de conversación:
+## Interacción del Usuario con el Bot y Flujo de conversación
 
 El bot sigue un flujo de conversación que permite a los usuarios recibir respuestas detalladas y útiles en base a sus consultas. Ejemplos de interacción:
 
