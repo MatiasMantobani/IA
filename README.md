@@ -17,15 +17,14 @@ Tutores de gatos domesticos, dueños de mascotas, veterinarios, y cualquier pers
 ## Arquitectura
 
 ### Interfaz de usuario (UI)
-Implementada con Streamlit, la interfaz permite una interacción amigable mediante una ventana de chat. Los usuarios pueden enviar preguntas, recibir respuestas, y tienen acceso a opciones como Borrar historial para reiniciar la conversación y organizar consultas.
+Implementada con Streamlit, la interfaz permite una interacción amigable mediante una ventana de chat. Los usuarios pueden enviar preguntas, recibir respuestas, y tienen acceso a la opcion de borrar el historial para reiniciar la conversación y la memoria.
 
 ### Backend
 Incluye los siguientes archivos principales:
-
 - app.py: Responsable de la interfaz de usuario, configuración de las columnas, botones, e integración con el modelo de chat.
-- embeddings.ipynb: Utiliza embeddings de OpenAI para procesar y almacenar documentos en una base de datos de Chroma, facilitando la recuperación de información relevante sobre el cuidado de gatos.
+- embeddings.ipynb: Utiliza embeddings de OpenAI para procesar y almacenar documentos en una base de datos de Chroma, facilitando la recuperación de información relevante de la base de conocimiento sobre el cuidado de gatos.
 - main.py: Configura el agente de inteligencia artificial basado en GPT-3.5-Turbo, así como herramientas de recuperación de información y memoria de conversación para mejorar la continuidad y calidad de las respuestas.
-- Motor de IA: El chatbot utiliza GPT-3.5-Turbo como motor principal, empleando prompts específicos para asegurar que las respuestas sean precisas, empáticas y centradas en el cuidado de gatos.
+- Motor de IA: El chatbot utiliza GPT-3.5-Turbo como motor principal, empleando prompts específicos para asegurar que las respuestas sean precisas, empáticas y centradas en el cuidado de gatos domésticos.
 
 ---
 
@@ -46,12 +45,12 @@ Los usuarios pueden hacer preguntas como:
 ---
 
 ## Instrucciones de Configuración
-Abrir terminal y ejecutar el siguiente comando:
-1) python -m venv env
+Abrir terminal o IDE y ejecutar el siguiente comando:
+1) Crear el entorno virtual: python -m venv env
 2) Activar el entorno virtual: env/scripts/activate
 3) Instalar dependencias: pip install -r requirements.txt
-4) Configurar API Key en el archivo .env.
+4) El usuario deberá colocar su API Key en el archivo .env.
 5) Ejecutar la notebook embeddings.ipynb para crear la base de datos Chroma con información relevante sobre el cuidado de gatos.
-- Notas:Si encuentras problemas de autorización en Windows, ejecuta el siguiente comando en PowerShell como administrador: 'Set-ExecutionPolicy RemoteSigned -Scope LocalMachine' y luego, confirma con "s" y repite el paso 2.
+- Notas:Si encuentras problemas de autorización en Windows, ejecuta el siguiente comando en PowerShell como administrador: 'Set-ExecutionPolicy RemoteSigned -Scope LocalMachine' y luego, confirma con "s" y repite desde el paso 2.
 
 También, información más detallada sobre la instalación y el funcionamiento del software se encuentra disponible dentro del directorio miaumis, en el archivo setup.txt.
