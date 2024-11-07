@@ -51,6 +51,6 @@ Abrir terminal o IDE y ejecutar el siguiente comando:
 3) Instalar dependencias: pip install -r requirements.txt
 4) El usuario deberá colocar su API Key en el archivo .env.
 5) Ejecutar la notebook embeddings.ipynb para crear la base de datos Chroma con información relevante sobre el cuidado de gatos.
-- Notas:Si encuentras problemas de autorización en Windows, ejecuta el siguiente comando en PowerShell como administrador: 'Set-ExecutionPolicy RemoteSigned -Scope LocalMachine' y luego, confirma con "s" y repite desde el paso 2.
+- Notas: Si encuentras problemas de autorización en Windows, ejecuta el siguiente comando en PowerShell como administrador: 'Set-ExecutionPolicy RemoteSigned -Scope LocalMachine' y luego, confirma con "s" y repite desde el paso 2.
 
 También, información más detallada sobre la instalación y el funcionamiento del software se encuentra disponible dentro del directorio miaumis, en el archivo setup.txt.
