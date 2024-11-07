@@ -10,7 +10,7 @@ Miaumis es un chatbot diseñado para ofrecer consejos sobre el cuidado general d
 Facilitar el acceso a información confiable sobre el cuidado de gatos para mejorar su bienestar y calidad de vida.
 
 ## Destinatarios
-Tutores de gatos domesticos: dueños de mascotas, veterinarios, y cualquier persona interesada en el bienestar de los gatos.
+Tutores de gatos domesticos, dueños de mascotas, veterinarios, y cualquier persona interesada en el bienestar de los gatos.
 
 ---
 
